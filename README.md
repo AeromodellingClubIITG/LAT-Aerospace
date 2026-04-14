@@ -2,6 +2,8 @@
 ### Team 33
 ### Powered Lift Wing Architecture using Distributed Electric Propulsion
 
+---
+
 ## Project Overview
 This project involves the design and optimization of a powered-lift wing architecture for a super-STOL aircraft with powered lift systems, leveraging **distributed electric propulsion (DEP)** and high-lift devices like **Fowler flaps** and **slotted flaps**. The goal is to create an aircraft that can achieve very high lift coefficients (up to 6.5 or more) and perform short takeoff and landing (STOL) in constrained environments. \
 This folder contains **CFD folders with .msh, .cas and .set files, CAD files, XFLR5 Results, airfoil .dat files, QMIL/QPROP files and MATLAB files** that were used in the design and analysis of the wing architecture.
@@ -191,93 +193,11 @@ Additional Files/
 ---
 ## Folder Descriptions
 
-### **1. CFD Simulation**
-
-The **CFD** folder contains various analysis and simulation files for different configurations of the aircraft's wing and propeller systems.
-
-#### **1.1. Base airfoil**
-
-**Description**: CFD setup and analysis files for clean GAW(1) airfoil.Containing mesh, case, DAT ans .set files. 
-
-#### **1.2. BASE_double_slotted_flap_30_and_40_degrees**
-
-**Description**: CFD setup and analysis files for the base airfoil with vane angle of 30 and flap anngle of 40 degrees. Containing mesh, case, .dat and .set files. 
-
-#### **1.3. BASE_flap_plain_30_degrees**
-
-**Description**: CFD setup and analysis files  for GAW(1) with plain flaps of angle of 30 degrees. Containing mesh, case, .dat and .set files.
-
-#### **1.4. BASE_flap_plain_40_degrees**
-
-**Description**: CFD steup and analysis files for GAW(1) with plain flaps of angle of 40 degrees. Containing mesh, case, .dat and .set files. 
-
-#### **1.5. BASE_flap_plain_50_degrees**
-
-**Description**: CFD setup and analysis files for GAW(1) with plain flaps of angle of 50 degrees. Containing mesh, case, .dat and .set files. 
-
-#### **1.6. BASE_slat**
-
-**Description**: CFD setup and analysis files for GAW(1) with only slats deployed. Containing mesh, case, .dat and .set files.
-
-#### **1.7. BASE_slat_with_flap_30_degrees**
-
-**Description**: CFD setup and analysis files for GAW(1) with slats and flaps at angle of 30 degrees. Containing mesh, case, .dat and .set files.
-
-#### **1.8. BASE_slat_with_flap_40_degrees**
-
-**Description**: CFD setup and analysis files for GAW(1) with slats and flaps at angle of 40 degrees. Containing mesh, case, .dat and .set files.
-
-#### **1.9. BASE_slat_with_flap_50_degrees**
-
-**Description**: CFD setup and analysis files for GAW(1) with slats and flaps at angle of 50 degrees. Containing mesh, case, .dat and .set files.
-
-#### 1.10. BASE_slat_with_double_slotted_flaps
-
-**Description**: CFD setup and analysis files for GAW(1) with leading edge slats and double slotted flaps at a deflection of 30 degrees. Containing mesh, case, .dat and .set files.
-
-### **1.11. MODEL_1_Propeller**
-
-**Description**: CFD setup and analysis files of Model 1-Propeller-Powered distributed EBF. Containing mesh, case, .dat and .set files.
-
-#### **1.12. MODEL_2A_EDF_leading_edge**
-
-**Description**: CFD setup and analysis files of Model 2(A)-leading-edge Ducted-fan Powered distributed USB. Containing mesh, case, .dat and .set files.
-
-#### **1.13. MODEL_2B_EDF_trailing_edge**
-
-**Description**: CFD setup and analysis files of 2D & 3D Sectional Model 2(B)-trailing-edge Ducted-fan Powered distributed USB. Containing mesh, case, .dat and .set files.
-
-#### **1.14. MODEL_3_hybrid_propulsion**
-
-**Description**: CFD setup and analysis files of 2D & 3D Sectional Model 3- hybrid propulsion augmented distributed USB. Containing mesh, case, .dat and .set files.
-
-#### **1.15. MODEL_4_nozzle**
-
-**Description**: CFD steup and analysis files of 2D & 3D Sectional Model 4- nozzle enhanced USB with Active Flow Control. Containing mesh, case, .dat and .set files.
-
-#### **1.16. FINAL MODEL**
-
-**Description**: CFD steup and analysis files of complete finite 3D wing of Model 2B- trailing-edge Ducted-fan Powered distributed USB. Containing mesh, case, .dat and .set files for both takeoff and cruise conditions.
-
-#### **1.17. Propulsive Devices**
-
-The **Propulsive_Devices** folder contains CFD setup and analysis files of the propulsion devices used in study.
-
-- **1.17.1. 8045 Propeller**
-
-**Description**: CFD steup and analysis files of 8045 propeller. Containing mesh, case, .dat and .set files.
-
-- **1.17.2. 40mm EDF**
-
-**Description**: CFD steup and analysis files of 40mm EDF. Containing mesh, case, .dat and .set files.
-
----
-
-### **2. Propulsive Performance**
+### **1. Propulsive Performance**
 
 The **Propulsive_Performance** folder contains Qprop and Qmil input/output files for propeller analysis under different flight conditions.
 
-#### **2.1. cruise_condition_14inch_prop**
+#### **1.1. cruise_condition_14inch_prop**
 
 **Description**: Propeller design and BEMT analysis for cruise conditions using 14-inch propeller.
 
@@ -290,7 +210,7 @@ The **Propulsive_Performance** folder contains Qprop and Qmil input/output files
   - `cruisemotor.txt`: Motor specifications for Qprop.
   - `cruiseresults.txt`: BEMT analysis results from Qprop.
 
-#### **2.2. takeoff_condition_6inch_prop**
+#### **1.2. takeoff_condition_6inch_prop**
 
 **Description**: Propeller design and BEMT analysis for takeoff conditions using 6-inch propeller.
 
@@ -305,11 +225,11 @@ The **Propulsive_Performance** folder contains Qprop and Qmil input/output files
 
 ---
 
-### **3. CAD Files**
+### **2. CAD Files**
 
 The **CAD Files** folder contains all STEP files used for aerodynamic design, DEP configuration studies, and CFD simulations. They include airfoils, high-lift systems, propeller/EDF layouts, and hybrid concepts.
 
-#### **3.1. Propulsors/**
+#### **2.1. Propulsors/**
 
 **Description**: Contains all the CAD files for the propulsors.
 
@@ -323,7 +243,7 @@ The **CAD Files** folder contains all STEP files used for aerodynamic design, DE
 
 
 
-#### **3.3. Renders/**
+#### **2.3. Renders/**
 
 - `MODEL_1_Propeller_3D.STEP` : 3D model of a 350mm region of wing of MODEL-1 containing leading edge flat, double-slotted flaps, and leading edge propeller at 10°.
 
@@ -337,96 +257,46 @@ The **CAD Files** folder contains all STEP files used for aerodynamic design, DE
 
 ---
 
-### 4. All Airfoils
+### 3. All Airfoils
 
 The **All Airfoils** folder consists of the .dat files that have been chosen as candidate airfoils and analyzed using XFOIL via XFLR5.
 
-#### 4.1. GA(W)-1 12%.dat
+#### 3.1. GA(W)-1 12%.dat
 
  **Description**: .dat file for GA(W)-1 airfoil with max (t/c) = 12%.
 
-#### 4.2. GA(W)-1 15%.dat
+#### 3.2. GA(W)-1 15%.dat
 
  **Description**: .dat file for GA(W)-2 airfoil with max (t/c) = 15%.
 
-#### 4.3. GA(W)-1 17%.dat
+#### 3.3. GA(W)-1 17%.dat
 
  **Description**: .dat file for GA(W)-1 airfoil with max (t/c) = 17%.
 
-#### 4.4. GA(W)-2 13%.dat
+#### 3.4. GA(W)-2 13%.dat
 
  **Description**: .dat file for GA(W)-2 airfoil with max (t/c) = 13%.
  
-#### 4.5. NASA SC(2)-0410 AIRFOIL.dat
+#### 3.5. NASA SC(2)-0410 AIRFOIL.dat
 
  **Description**: .dat file for NASA SC(2)-0410 airfoil.
 
-#### 4.6. NASA SC(2)-0610 AIRFOIL.dat
+#### 3.6. NASA SC(2)-0610 AIRFOIL.dat
 
  **Description**: .dat file for NASA SC(2)-0610 airfoil.
 
-#### 4.7. NASA SC(2)-0712 AIRFOIL.dat
+#### 3.7. NASA SC(2)-0712 AIRFOIL.dat
 
  **Description**: .dat file for NASA SC(2)-0712 airfoil.
 
-#### 4.8. NASA SC(2)-0714 AIRFOIL.dat
+#### 3.8. NASA SC(2)-0714 AIRFOIL.dat
 
  **Description**: .dat file for NASA SC(2)-0714 airfoil.
 
  ---
 
- ### 5. XFLR5 Results
 
-The **XFLR5 Results** folder contails of the .xfl files that can be run on the XFLR5 environment to generate airfoil polars and the .txt files which contains the tabulated data exported from XFLR5. 
-
-#### 5.1. Candidate Airfoils Comparison.xfl
-
-**Description**: Analysis of candidate airfoils- polars were plotted for comparison.
-
-#### 5.2. GA(W)-1 Flap and Slat Deflection Analysis.xfl
-
-**Description**: Analysis of GA(W)-1 airfoil for different flap and slat deflections.
-
-#### 5.3. GA(W)-2 Flap and Slat Deflection Analysis.xfl
-
-**Description**: Analysis of GA(W)-2 airfoil for different flap and slat deflections.
-
-#### 5.4. GA(W)-1 Flap and Slat Sizing Analysis.xfl
-
-**Description**: Analysis of GA(W)-2 airfoil for different flap and slat sizes with 20° flap deflection and 10° slat deflection.
-
-#### 5.5. GA(W)-1 and GA(W)-2 Results/
-
-**Description**: Folder contain .txt file results from XFOIL polars of GA(W)-1 and GA(W)-2 airfoils.
-
-**Contents**:
-- **cruise/**: Contains results for cruising conditions. 
-  - `GAW-1 17%_T1_Re0.788_M0.23_N9.0.txt`: Polar results for GA(W)-1 at cruise.
-  - `GAW-2 13%_T1_Re0.788_M0.23_N9.0.txt`: Polar results for GA(W)-2 at cruise.
-  
-- **takeoff/**: Contains results for takeoff conditions. 
-  - `GAW-1 17%_T1_Re0.197_M0.06_N9.0.txt`: Polar results for GA(W)-1 at takeoff.
-  - `GAW-2 13%_T1_Re0.197_M0.06_N9.0.txt`: Polar results for GA(W)-1 at takeoff.
-
-#### 5.6. GA(W)-1 Flap and Slat Deflection Results/
-
-**Description**: Folder contain .txt file results from XFOIL polars of GA(W)-1 and GA(W)-2 airfoils for different flap and slat deflection angles.
-
-**Contents**:
-- `GAW-1 17%_F0_S0_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 0° and slat 0°.
-- `GAW-1 17%_F10_S0_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 10° and slat 0°.
-- `GAW-1 17%_F10_S10_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 10° and slat 10°.
-- `GAW-1 17%_F10_S20_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 10° and slat 20°.
-- `GAW-1 17%_F10_S30_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 10° and slat 30°.
-- `GAW-1 17%_F20_S10_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 20° and slat 10°.
-- `GAW-1 17%_F20_S20_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 20° and slat 20°.
-- `GAW-1 17%_F30_S10_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 30° and slat 10°.
-- `GAW-1 17%_F30_S20_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 30° and slat 20°.
-- `GAW-1 17%_F40_S0_T1_Re0.197_M0.06_N9.0.txt`: Results for flap 40° and slat 0°.
-
----
-
-### 6. Spar_design
+### 4. Spar_design
 **Description**: Structural analysis of the spar for the minimum volume.
 
 **Content**:
@@ -459,16 +329,16 @@ The **XFLR5 Results** folder contails of the .xfl files that can be run on the X
   - `SFD.png` : Shear force diagram of the half-span wing
   - `BMD.png` : Bending Moment diagram of the half-span wing
 
-### 7. MATLAB Plots
+### 5. MATLAB Plots
 
-#### 7.1. Wing Sizing Plots
+#### 5.1. Wing Sizing Plots
 
 **Description**: Folder contains .m plots related to finding the design space of the aircraft wing, using which the subsequent models are formulated.
 
 **Content**:
 - `Constraint_Diagram.m`
 
-#### 7.2. Airfoil Plots
+#### 5.2. Airfoil Plots
 
 **Description**: Folder contains .m plots and supporting .txt plots for plots related to airfoil analysis
 
@@ -511,7 +381,7 @@ The **XFLR5 Results** folder contails of the .xfl files that can be run on the X
     - `GA(W)-1-20-10.txt`: CL vs alpha at Flap 20° and Slat 10°
     - `GA(W)-1-30-10.txt`: Cl vs alpha at Flap 30° and Slat 10° 
 
-#### 7.3. CFD Results Plots
+#### 5.3. CFD Results Plots
 
 **Contents**:
 
@@ -559,7 +429,7 @@ The **XFLR5 Results** folder contails of the .xfl files that can be run on the X
 
 - `MODEL_COMPARISON_2D.m` : MATLAB code for comparison of MODEL 1, MODEL 2B and MODEL 3 2D section analysis plots.
 
-#### 7.4. Propulsion Plots
+#### 5.4. Propulsion Plots
 
 **Description**: Folder contains MATLAB code to plot thrust data of different propellers from motor data as well as theory.
 
@@ -591,7 +461,7 @@ The **XFLR5 Results** folder contails of the .xfl files that can be run on the X
   - `Thrust_PropSize.m`: Theoretical plot of thrust vs prop diameter.
   - `ThrustCoeff_AdvanceRatio.m`: Theoretical plot of CT vs Advance Ratio.
 
-### 8. Blender_Renders
+### 6. Blender_Renders
 
 **Description**: The folder contains 2D and 3D renders for CADs whose images have been attached in the report. 
 
