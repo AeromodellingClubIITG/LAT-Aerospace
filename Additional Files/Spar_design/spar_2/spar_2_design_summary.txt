@@ -1,0 +1,37 @@
+Wing Spar I-beam Design (per spar)
+=================================
+
+Inputs (for this spar):
+  Half-span b/2          = 1.750000e+00 m
+  M_root                 = 1.245172e+02 N·m
+  V_root                 = 1.431279e+02 N
+  E                      = 6.900000e+10 Pa
+  sigma_allow            = 1.725000e+08 Pa
+  tau_allow              = 9.950000e+07 Pa
+  delta_allow            = 3.500000e-01 m
+
+Optimal I-beam section at minimum feasible height:
+  h_overall              = 2.447059e-02 m
+  t_web                  = 4.175205e-03 m
+  t_flange               = 8.350410e-03 m
+  h_web                  = 7.769769e-03 m
+  b_flange               = 7.341176e-03 m
+  Area A                 = 1.550440e-04 m^2
+  Second moment I        = 8.840575e-09 m^4
+
+Volume & mass (one spar, half-span):
+  Volume V_half          = 2.713271e-04 m^3
+  Mass m_half            = 7.542892e-01 kg
+
+Minimum overall height that passed all checks:
+  h_min_feasible         = 2.447059e-02 m
+
+Check at optimal section:
+  sigma (bending)        = 1.723309e+08 Pa
+  tau_avg (web shear)    = 4.412029e+06 Pa
+  delta_tip              = 3.125689e-01 m
+
+Safety margins (allowable / actual):
+  Bending                = 1.001
+  Shear                  = 22.552
+  Deflection             = 1.120

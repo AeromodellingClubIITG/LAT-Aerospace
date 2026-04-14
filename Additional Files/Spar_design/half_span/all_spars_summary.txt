@@ -1,0 +1,62 @@
+All Spars Combined Summary
+==========================
+
+Root loads (this half-wing, all spars):
+  |V_root_total|         = 3.578198e+02 N
+  |M_root_total|         = 3.112929e+02 N·m
+
+Number of spars          = 5
+User load share fractions:
+  Spar 1: 0.100000
+  Spar 2: 0.400000
+  Spar 3: 0.250000
+  Spar 4: 0.150000
+  Spar 5: 0.100000
+
+--- Spar 1 ---
+  Fraction               = 0.100000
+  M_root (this spar)     = 3.112929e+01 N·m
+  V_root (this spar)     = 3.578198e+01 N
+  h_min_feasible         = 1.694118e-02 m
+  Volume (half-span)     = 1.171080e-04 m^3
+  Mass (half-span)       = 3.255602e-01 kg
+
+--- Spar 2 ---
+  Fraction               = 0.400000
+  M_root (this spar)     = 1.245172e+02 N·m
+  V_root (this spar)     = 1.431279e+02 N
+  h_min_feasible         = 2.447059e-02 m
+  Volume (half-span)     = 2.713271e-04 m^3
+  Mass (half-span)       = 7.542892e-01 kg
+
+--- Spar 3 ---
+  Fraction               = 0.250000
+  M_root (this spar)     = 7.782323e+01 N·m
+  V_root (this spar)     = 8.945494e+01 N
+  h_min_feasible         = 2.124370e-02 m
+  Volume (half-span)     = 1.903656e-04 m^3
+  Mass (half-span)       = 5.292164e-01 kg
+
+--- Spar 4 ---
+  Fraction               = 0.150000
+  M_root (this spar)     = 4.669394e+01 N·m
+  V_root (this spar)     = 5.367296e+01 N
+  h_min_feasible         = 1.855462e-02 m
+  Volume (half-span)     = 1.735662e-04 m^3
+  Mass (half-span)       = 4.825142e-01 kg
+
+--- Spar 5 ---
+  Fraction               = 0.100000
+  M_root (this spar)     = 3.112929e+01 N·m
+  V_root (this spar)     = 3.578198e+01 N
+  h_min_feasible         = 1.694118e-02 m
+  Volume (half-span)     = 1.171080e-04 m^3
+  Mass (half-span)       = 3.255602e-01 kg
+
+All spars together, ONE wing (half-span each):
+  Total volume_half      = 8.694749e-04 m^3
+  Total mass_half        = 2.417140e+00 kg
+
+All spars together, BOTH wings:
+  Total volume_full      = 1.738950e-03 m^3
+  Total mass_full        = 4.834280e+00 kg
