@@ -10,86 +10,6 @@ This folder contains **CFD folders with .msh, .cas and .set files, CAD files, XF
 ## Folder Structure
 ```
 Additional Files/
-├── CFD Simulation/
-│   ├── Base_airfoil/
-|   |   ├──Base_airfoil.msh
-|   |   ├──Base_airfoil.h5
-|   |   ├──Base_airfoil.cas.h5
-|   |   └──Base_airfoil.set
-│   ├── BASE_double_slotted_flap_30_and_40_degrees/
-|   |   ├──BASE_double_slotted_flap_30_and_40_degrees.msh
-|   |   ├──BASE_double_slotted_flap_30_and_40_degrees.dat.h5
-|   |   ├──BASE_double_slotted_flap_30_and_40_degrees.cas.h5
-|   |   └──BASE_double_slotted_flap_30_and_40_degrees.set
-│   ├── BASE_flap_plain_30_degrees/
-|   |   ├──BASE_flap_plain_30_degrees.msh
-|   |   ├──BASE_flap_plain_30_degrees.dat.h5
-|   |   ├──BASE_flap_plain_30_degrees.cas.h5
-|   |   └──BASE_flap_plain_30_degrees.set
-│   ├── BASE_flap_plain_40_degrees/
-|   |   ├──BASE_flap_plain_40_degrees.msh
-|   |   ├──BASE_flap_plain_40_degrees.dat.h5
-|   |   ├──BASE_flap_plain_40_degrees.cas.h5
-|   |   └──BASE_flap_plain_40_degrees.set
-│   ├── BASE_flap_plain_50_degrees/
-|   |   ├──BASE_flap_plain_50_degrees.msh
-|   |   ├──BASE_flap_plain_50_degrees.dat.h5
-|   |   ├──BASE_flap_plain_50_degrees.cas.h5
-|   |   └──BASE_flap_plain_50_degrees.set
-│   ├── BASE_slat/
-|   |   ├──BASE_slat.msh
-|   |   ├──BASE_slat.dat.h5
-|   |   ├──BASE_slat.cas.h5
-|   |   └──BASE_slat.set
-│   ├── BASE_slat_with_flap_30_degrees/
-|   |   ├──BASE_slat_with_flap_30_degrees.msh
-|   |   ├──BASE_slat_with_flap_30_degrees.dat.h5
-|   |   ├──BASE_slat_with_flap_30_degrees.cas.h5
-|   |   └──BASE_slat_with_flap_30_degrees.set
-│   ├── BASE_slat_with_flap_40_degrees/
-|   |   ├──BASE_slat_with_flap_40_degrees.msh
-|   |   ├──BASE_slat_with_flap_40_degrees.dat.h5
-|   |   ├──BASE_slat_with_flap_40_degrees.cas.h5
-|   |   └──BASE_slat_with_flap_40_degrees.set
-│   ├── BASE_slat_with_flap_50_degrees/
-|   |   ├──BASE_slat_with_flap_50_degrees.msh
-|   |   ├──BASE_slat_with_flap_50_degrees.dat.h5
-|   |   ├──BASE_slat_with_flap_50_degrees.cas.h5
-|   |   └──BASE_slat_with_flap_50_degrees.set
-│   ├── BASE_slat_with_double_slotted_flap/
-|   |   ├──BASE_slat_with_double_slotted_flap.msh
-|   |   ├──BASE_slat_with_double_slotted_flap.dat.h5
-|   |   ├──BASE_slat_with_double_slotted_flap.cas.h5
-|   |   └──BASE_slat_with_double_slotted_flap.set
-│   ├── MODEL_1_Propeller/
-|   |   └──2D Section/
-│   ├── Model_2A_EDF_leading_edge/
-|   |   └──2D Section/
-│   ├── Model_2B_EDF_trailing_edge/
-|   |   ├──2D Section/
-|   |   └──3D Section/
-|   |      ├──Cruise/
-|   |      └──Take off/
-│   ├── MODEL_3_hybrid_propulsion/
-|   |   ├──2D Section/
-|   |   └──3D Section/
-│   ├── M0DEL_4_nozzle/
-|   |   ├──2D Section/
-|   |   └──3D Section/
-│   ├── FINAL MODEL/
-|   |      ├──Cruise/
-|   |      └──Take off/
-│   └── Propulsion Devices/
-|       ├──8045 Propeller/
-|       |   ├──8045 Propeller.msh
-|       |   ├──8045 Propeller.dat.h5
-|       |   ├──8045 Propeller.cas.h5
-|       |   └──8045 Propeller.set
-|       └── 40mm EDF/
-|           ├──40mm EDF.msh
-|           ├──40mm EDF.dat.h5
-|           ├──40mm EDF.cas.h5
-|           └──40mm EDF.set
 |
 ├── Propulsive Performance/
 │   ├── cruise_condition_14inch_prop/
@@ -143,32 +63,6 @@ Additional Files/
 │   ├── NASA SC(2)-0610 AIRFOIL.dat
 │   ├── NASA SC(2)-0712 AIRFOIL.dat
 │   └── NASA SC(2)-0714 AIRFOIL.dat
-|
-├── XFLR5 Results/
-|   ├── Candidate Airfoils Comparison.xfl
-|   ├── GA(W)-1 Flap and Slat Deflection Analysis.xfl
-|   ├── GA(W)-2 Flap and Slat Deflection Analysis.xfl
-|   ├── GA(W)-1 Flap and Slat Sizing Analysis.xfl
-|   ├── GA(W)-1 and GA(W)-2 Results/
-|   │   ├── Cruise/ 
-|   │   │   ├── GAW-1 17%_T1_Re0.788_M0.23_N9.0.txt
-|   │   │   └── GAW-2 13%_T1_Re0.788_M0.23_N9.0.txt
-|   │   └── Takeoff/
-|   │       ├── GAW-1 17%_T1_Re0.197_M0.06_N9.0.txt
-|   │       └── GAW-2 13%_T1_Re0.197_M0.06_N9.0.txt
-|   └── GA(W)-1 Flap and Slat Deflection Results/
-|       ├── GAW-1 17%_F0_S0_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F10_S0_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F10_S10_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F10_S20_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F10_S30_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F20_S0_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F20_S10_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F20_S20_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F30_S0_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F30_S10_T1_Re0.197_M0.06_N9.0.txt
-|       ├── GAW-1 17%_F30_S20_T1_Re0.197_M0.06_N9.0.txt
-|       └── GAW-1 17%_F40_S0_T1_Re0.197_M0.06_N9.0.txt
 |
 ├── Spar_design/
 │   ├── spar_1/
@@ -426,45 +320,7 @@ The **CAD Files** folder contains all STEP files used for aerodynamic design, DE
 - `12_blade_edf_40.step` : 2D wing section with double-slotted flaps with vane at 30&deg;, and flap at a deflection angle of 40&deg;.
 
 
-#### **3.2. CFD_CADs/**
 
-**Description**: Contains all the CAD files used for CFD analysis (both 2D section and 3D)
-
-**Content**:
-
-- `3.1. BASE_airfoil.step` : 2D airfoil section of the main wing without any high-lift devices, used for initial aerodynamic analysis.
-
-- `BASE_double_slotted_flap_30_and_40_degrees.step` : 2D wing section with double-slotted flaps with vane at 30&deg;, and flap at a deflection angle of 40&deg;.
-
-- `BASE_flap_plain_30_degrees.step` : 2D wing section with plain flaps at deflection angle of 30&deg;.
-
-- `BASE_flap_plain_40_degrees.step` : 2D wing section with plain flaps at deflection angle of 40&deg;.
-
-- `BASE_flap_plain_50_degrees.step` : 2D wing section with plain flaps at deflection angle of 50&deg;.
-
-- `BASE_slat.step` : 2D wing section with leading edge slat.
-
-- `BASE_slat_with_flap_30_degrees.step` : 2D wing section with leading edge slat, and plain flaps at a deflection angle of 30&deg;.
-
-- `BASE_slat_with_flap_40_degrees.step` : 2D wing section with leading edge slat, and plain flaps at a deflection angle of 40&deg;.
-
-- `BASE_slat_with_flap_50_degrees.step` : 2D wing section with leading edge slat, and plain flaps at a deflection angle of 50&deg;.
-
-- `BASE_slat_with_double_slotted_flap.step` : 2D wing section with leading edge slat, and double-slotted flaps with vane at 30&deg; and flap at a deflection angle of 40&deg;. 
-
-- `MODEL_1_propeller.step` : 2D wing section of MODEL-1 containing a leading edge slat, double-slotted flaps, and leading edge propeller at 10&deg;.
-
-- `MODEL_2_motor_leading_edge.step` : 2D wing section of MODEL-3 containing leading edge slat, double-slotted flaps with vane at 30&deg; and flap at a deflection angle of 40&deg;,  and EDF motors aligned at the trailing edge of the wing.
-
-- `MODEL_2_motor_trailing_edge.step` : 2D wing section of MODEL-3 containing leading edge slat, double-slotted flaps with vane at 30&deg; and flap at a deflection angle of 40&deg;,  and EDF motors aligned at the leading edge of the wing.
-
-- `MODEL_3_hybrid_propulsion_motor_10_degrees.step` : 2D wing section of MODEL-2 containing a leading edge slat, double-slotted flaps, and hybrid propulsion with trailing edge EDF and leading edge propeller at 10&deg;.
-
-- `MODEL_4_nozzle_augmented_USB_with_AFC.step` : 2D wing section of MODEL-4 containing a plain flap at 30&deg; angle of deflection, EDF motor of diameter 65mm at 10&deg; angle, and a nozzle of height 20mm and width 300mm.
-
-- `MODEL_2B_trailing_edge_finite_wing_takeoff.STEP` : 3D modelled takeoff condition of half-wing of MODEL-2B containing a leading edge slat, double-slotted flaps, and with trailing edge EDF. 
-
-- `MODEL_2B_trailing_edge_finite_wing_cruise.STEP` : 3D modelled cruise condition of half-wing of MODEL-2B containing a leading edge slat, double-slotted flaps, and with trailing edge EDF. 
 
 
 #### **3.3. Renders/**
