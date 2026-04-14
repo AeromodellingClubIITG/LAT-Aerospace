@@ -1,0 +1,12 @@
+1500KV Motor (user supplied data)
+
+ 1        ! motor type (brushed DC, higher-order model)
+
+ 0.7889   ! R0     (Ohms)        <-- estimated from V,RPM,I measurement (see notes)
+ 1.4900   ! Io0    (Amps)        <-- no-load current from spec image
+ 1500.0   ! Kv     (rpm/Volt)    <-- from motor spec (1500 KV)
+ 1500.0   ! Kq     (Amps/N-m)*30/pi  <-- QPROP format (equals Kv)
+ 1.0E-05  ! tau    (s)
+ 5.70E-05 ! Io1    (Amp-s)
+ 4.00E-08 ! Io2    (Amp-s^2)
+ 0.012    ! R2     (Ohms/Amps^2)

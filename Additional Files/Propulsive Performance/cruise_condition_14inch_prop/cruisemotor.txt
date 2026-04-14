@@ -1,0 +1,12 @@
+LongShaft_KV580
+
+ 2        ! motor type (brushed DC, higher-order model)
+
+ 0.01800   ! R0     (Ohms)
+ 1.90000   ! Io0    (Amps)
+ 580.0     ! Kv     (rpm/Volt)
+ 580.0     ! Kq     (Amps/N-m)*30/pi
+ 1.0E-05   ! tau    (s)
+ 0.0       ! Io1    (Amp-s)
+ 0.0       ! Io2    (Amp-s^2)
+ 0.000     ! R2     (Ohms/Amps^2)
